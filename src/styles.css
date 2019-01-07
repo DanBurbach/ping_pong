@@ -1,11 +1,23 @@
 body {
   background-color: tan;
 }
+#header {
+  font-style: oblique;
+  font-size: 20px;
+}
 
+#solution {
+  padding: 10px;
+  border: black solid;
+  width: 240px;
+  background-color: lightgray;
+}
 #title {
   margin: 10px;
 }
-
+.bold{
+  font-weight: bold;
+}
 .entry {
   padding: 10px;
   border: black solid;

@@ -9,7 +9,9 @@ $(document).ready(function() {
     var vowels_consonants = counter(body);
       // var output = pingPong(goal);
     // output.forEach(function(element) {
-    $('#solution').append("Title: " + title + "<p>" + body + "</p>" + "<p>" + vowels_consonants + "</p>");
+    $('#solution').append("Title: "+ title +
+    "<p>" + body + "</p>" +
+    "<p>" + "Number of Vowels in entry: " + vowels_consonants[0] + "</p>" + "<p>" + " Number of Consonants in entry: " + vowels_consonants[1] + "</p>" + "<p class='bold'>" + "---------------" + "</p>");
     // });
   });
 });
