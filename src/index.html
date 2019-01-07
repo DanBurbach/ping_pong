@@ -5,16 +5,18 @@
     <title>Journal</title>
   </head>
   <body>
+    <div class="journal">
     <h1>Your Journal</h1>
     <div class="entry">
-      <form id="journal-form">
+      <form id="journal-form" autocomplete="off">
         <label for="title">Enter a title:</label>
         <input id="title" type="text"><br>
         <label for="body">Journal Entry:</label><br>
-        <input class="bodytext" id="body" type="text"><br>
+        <textarea rows="8" class="bodytext" id="body" type="text"></textarea><br>
         <button type="submit">Submit</button>
       </form>
     </div>
     <ul id="solution"> <p><strong id ="header"> Entries:<br></strong></p> </ul>
+  </div>
   </body>
 </html>
