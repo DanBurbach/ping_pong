@@ -1,15 +1,15 @@
-export function pingPong(goal) {
-  var output = [];
-  for (var i = 1; i <= goal; i++) {
-    if (i % 15 === 0) {
-      output.push("ping-pong");
-    } else if (i % 3 === 0) {
-      output.push("ping");
-    } else if (i % 5 === 0) {
-      output.push("pong");
-    } else  {
-      output.push(i);
+export function counter(body) {
+  var vowel_list = 'aeiouAEIOU';
+  var consonants_list= 'bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTvVwWxXyYzZ'
+  var vowel_total = 0;
+  var consonants_total = 0;
+  for (var i = 0; i <= body.length; i++) {
+    if (vowel_list.indexOf(body[i]) !== -1) {
+      vowel_total += 1;
+    } else (consonants_list.indexOf(body[i]) !== -1) {
+      consonants_total +=1;
     }
   }
-  return output;
+  return vowel_total;
+  return consonants_total;
 }
