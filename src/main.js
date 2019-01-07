@@ -1,3 +1,4 @@
+import "./styles.css";
 import { pingPong } from './journal';
 
 $(document).ready(function() {
