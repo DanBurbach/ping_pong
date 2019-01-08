@@ -1,7 +1,14 @@
-body {
-  width: 50%;
-  background-color: tan;
+body{
+  background-color: brown !important;
+}
+title {
+  text-shadow: 2px 2px white;
+}
+.jumbotron {
+  /* background-image: url('https://i.amz.mshcdn.com/bDHmwf01WVlefsmtkcMThVtBpZ8=/950x534/filters:quality(90)/2013%2F07%2F22%2Fb4%2Fsadpug.5a9b4.gif'); */
+  background-color: tan !important;
   padding-top: 5px;
+
 }
 
 #header {
@@ -24,7 +31,7 @@ body {
 .entry {
   padding: 10px;
   border: black solid;
-  width: 240px;
+  width: 275px;
   background-color: lightgray;
 }
 

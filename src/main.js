@@ -1,5 +1,8 @@
+import $ from 'jquery';
 import "./styles.css";
 import { counter } from './journal';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 $(document).ready(function() {
   $('#journal-form').submit(function(event) {
@@ -7,7 +10,7 @@ $(document).ready(function() {
     var title = $('#title').val();
     var body = $('#body').val();
     var vowels_consonants = counter(body);
-      // var output = pingPong(goal);
+    // var output = pingPong(goal);
     // output.forEach(function(element) {
     $('#solution').append("Title: "+ title +
     "<p>" + body + "</p>" +
